@@ -4,7 +4,9 @@
  * Utiliza adecuadamente el método "includes" dentro de la función para buscar el pez 'fishToFind' en el banco de peces 'fishes'. Tu función debe devolver un true o un false
 */
 
-function isFishHere(fishes, fishToFind) {
+function isFishHere(fishes, fishToFind) { 
+    return fishes.includes(fishToFind);
+
 }
 
 // Conjunto de pruebas para isFishHere

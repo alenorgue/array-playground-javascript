@@ -9,9 +9,10 @@ function shoutPlayerNames(players) {
     // RECUERDA: PRIMERO escribe lo que hay que hacer con tus palabras. Luego, viene el código
     let arrayUpperCase = [];
 
+  
     // Codificar aquí....
 
-    return arrayUpperCase;
+      return players.map(player => player.toUpperCase());
 
 }
 

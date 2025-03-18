@@ -6,7 +6,8 @@
  */
 
 function countSixes(rolls) {
-    // RECUERDA: PRIMERO escribe lo que hay que hacer con tus palabras. Luego, viene el código
+    return rolls.filter(roll => roll === 6).length;
+    // RECUERDA: PRIMERO escribe lo que hay que hacer con tus palabras. Luego, viene el código. Primero usar filter para encontrar los 6 dentro del array, luego usar .lenght para el nuevo array. pero no me funciona si lo pongo en otra linea, preguntado a chat para resolver esta parte
 }
 
 // Ejemplo de uso:

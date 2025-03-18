@@ -17,8 +17,8 @@ let listaPeces = ["Dory", "Nemo", "Shipho", "Estrella"];
 let pezBuscado = "Estrella";
 let pezEncontrado = false;
 let i = 0;
-
-while (!pezEncontrado && i < listaPeces.length - 1) {
+console.log("He encontrado al pez?: " + pezEncontrado);
+while (!pezEncontrado && i< listaPeces.length ) {
   if (listaPeces[i] == pezBuscado) {
     pezEncontrado = true;
   }
